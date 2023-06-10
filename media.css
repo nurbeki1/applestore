@@ -1,0 +1,53 @@
+@media only screen and (max-width: 700px) {
+  .container header {
+    padding: 20px;
+  }
+  .container header .menu {
+    display: none;
+  }
+
+  .container header .menu_burg {
+    display: block;
+    flex-direction: column;
+  }
+  .container header .menu_burg ul li {
+    list-style: none;
+    display: block;
+    margin-left: 0px;
+  }
+  .container header .logo {
+    flex: 1;
+    text-align: start;
+  }
+
+  .container header .burg_icon {
+    display: block;
+  }
+  .container header .burg_icon button {
+    background: transparent;
+    border: none;
+  }
+  .container header .burg_icon i {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  #main4 h1 {
+    font-size: 50px;
+  }
+
+  footer {
+    gap: 0px;
+  }
+  footer .foot1 .li1 {
+    font-size: 12px;
+    font-weight: bolder;
+  }
+  footer .foot1 ul li {
+    list-style: none;
+    padding: 2px;
+  }
+  footer .foot1 ul li a {
+    font-size: 8px;
+  }
+}

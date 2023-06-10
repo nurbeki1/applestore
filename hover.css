@@ -1,0 +1,47 @@
+.container header .menu ul li a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: "SF Pro Text";
+}
+
+.container header .logo {
+  transition: 0.4s;
+}
+
+.container header .logo:hover {
+  transform: scale(1.2);
+}
+
+.container header .icons i:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+nav .btns .btn1:hover {
+  animation: lif 1 0.3s normal;
+}
+
+@keyframes lif {
+  0% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+nav .btns .btn2:hover {
+  animation: lif 1 0.3s normal;
+}
+
+.main_btns .btn1:hover {
+  animation: lif 1 0.3s normal;
+}
+
+.main_btns .btn2:hover {
+  animation: lif 1 0.3s normal;
+}
